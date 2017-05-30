@@ -1,0 +1,47 @@
+{
+  "name": "web-scrobbler",
+  "version": "1.0.0",
+  "author": "David Šabata <posta@davidsabata.cz>",
+  "description": "Dummy package for maintaining dev dependencies of Web Scrobbler browser extension. The package is not published anywhere",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/david-sabata/web-scrobbler.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "~2.29.0",
+    "grunt": "^1.0.1",
+    "grunt-bump": "~0.8.0",
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-compress": "~1.4.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-eslint": "~19.0.0",
+    "grunt-exec": "~2.0.0",
+    "grunt-git": "^1.0.3",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-lintspaces": "^0.8.0",
+    "grunt-preprocess": "~5.1.0",
+    "grunt-rename-util": "^1.0.0",
+    "grunt-stylelint": "^0.8.0",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.0.0",
+    "node-define": "~0.1.1",
+    "github": "~9.2.0",
+    "requirejs": "~2.3.2",
+    "selenium-webdriver": "~3.4.0",
+    "stylelint-order": "^0.4.3",
+    "webstore-upload": "~0.0.7"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "license": "MIT"
+}
